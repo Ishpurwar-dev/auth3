@@ -1,0 +1,28 @@
+.image {
+  background: url("/plasmic/auth_flow/images/image.png") center center / cover no-repeat;
+  width: 374px;
+  height: 424px;
+  display: block;
+  position: relative;
+}
+@media (max-width: 1190px) {
+  .image {
+    width: 354px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .image {
+    height: 352px;
+    width: 100%;
+  }
+}
+.img__o3UyE {
+  object-fit: cover;
+  max-width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.img__o3UyE > picture > img {
+  object-fit: cover;
+}
